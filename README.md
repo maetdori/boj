@@ -8,7 +8,7 @@
 
 ## Contents
 
-* [백트래킹](https://github.com/maetdori/BOJ/tree/main/Backtracking) 
-* [브루트 포스](https://github.com/maetdori/BOJ/tree/main/Brute%20Force)
-* [DFS와 BFS](https://github.com/maetdori/BOJ/tree/main/DFS%EC%99%80%20BFS)
-* [동적 계획법](https://github.com/maetdori/BOJ/tree/main/Dynamic%20Programming)
+* [백트래킹](https://github.com/maetdori/BOJ/tree/main/src/Backtracking) 
+* [브루트 포스](https://github.com/maetdori/BOJ/tree/main/src/Brute%20Force)
+* [DFS와 BFS](https://github.com/maetdori/BOJ/tree/main/src/DFS%EC%99%80%20BFS)
+* [동적 계획법](https://github.com/maetdori/BOJ/tree/main/src/Dynamic%20Programming)
