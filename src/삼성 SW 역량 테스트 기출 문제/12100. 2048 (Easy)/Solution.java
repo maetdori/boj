@@ -40,7 +40,7 @@ class Main {
 		}
 	}
 
-	private static int[][] move(int i) {
+	private static void move(int i) {
 		switch(i) {
 			case 0:
 				moveUpward();
@@ -55,7 +55,6 @@ class Main {
 				moveRightward();
 				break;
 		}
-		return map;
 	}
 
 	private static void operateStack(int num, Stack<int[]> stack) {
