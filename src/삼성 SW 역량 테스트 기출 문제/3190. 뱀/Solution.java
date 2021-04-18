@@ -76,14 +76,11 @@ class Main {
 
 			snake.add(new Pos(nr,nc));
 
-			if(map[nr][nc] == 1)
-				map[nr][nc] = 2;
-
-			else {
-				map[nr][nc] = 2;
+			if(map[nr][nc] != 1) {
 				map[curTail.r][curTail.c] = 0;
 				snake.remove(0);
 			}
+			map[nr][nc] = 2;
 
 			if(!changeDir.isEmpty() && runningTime == changeDir.peek().when) {
 				Dir nextDir = changeDir.poll();
