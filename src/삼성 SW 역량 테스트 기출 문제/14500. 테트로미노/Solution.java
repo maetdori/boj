@@ -95,6 +95,7 @@ class Main {
 		}
 	}
 
+	//凸 모양
 	private static void except() {
 		for(int r=0; r<R; r++) {
 			for(int c=0; c<C; c++) {
