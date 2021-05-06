@@ -4,7 +4,8 @@
 
 ![background](logo@2x.png)
 
-
+## Profile
+[![Solved.ac 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=odong2)](https://solved.ac/odong2)
 
 ## Contents
 * [그래프 탐색](https://github.com/maetdori/BOJ/tree/main/src/%EA%B7%B8%EB%9E%98%ED%94%84%20%ED%83%90%EC%83%89)
