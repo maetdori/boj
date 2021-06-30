@@ -16,6 +16,7 @@
 * [다익스트라](https://github.com/maetdori/BOJ/tree/main/src/%EB%8B%A4%EC%9D%B5%EC%8A%A4%ED%8A%B8%EB%9D%BC)
 * [문자열](https://github.com/maetdori/BOJ/tree/main/src/%EB%AC%B8%EC%9E%90%EC%97%B4)
 * [백트래킹](https://github.com/maetdori/BOJ/tree/main/src/%EB%B0%B1%ED%8A%B8%EB%9E%98%ED%82%B9) 
+* [분할 정복](https://github.com/maetdori/BOJ/tree/main/src/%EB%B6%84%ED%95%A0%20%EC%A0%95%EB%B3%B5)
 * [브루트 포스](https://github.com/maetdori/BOJ/tree/main/src/%EB%B8%8C%EB%A3%A8%ED%8A%B8%ED%8F%AC%EC%8A%A4)
 * [비트마스킹](https://github.com/maetdori/BOJ/tree/main/src/%EB%B9%84%ED%8A%B8%EB%A7%88%EC%8A%A4%ED%82%B9)
 * [수학](https://github.com/maetdori/BOJ/tree/main/src/%EC%88%98%ED%95%99)
