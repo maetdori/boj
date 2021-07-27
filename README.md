@@ -21,6 +21,7 @@
 * [브루트 포스](https://github.com/maetdori/BOJ/tree/main/src/%EB%B8%8C%EB%A3%A8%ED%8A%B8%ED%8F%AC%EC%8A%A4)
 * [비트마스킹](https://github.com/maetdori/BOJ/tree/main/src/%EB%B9%84%ED%8A%B8%EB%A7%88%EC%8A%A4%ED%82%B9)
 * [수학](https://github.com/maetdori/BOJ/tree/main/src/%EC%88%98%ED%95%99)
+* [스택](https://github.com/maetdori/BOJ/tree/main/src/%EC%8A%A4%ED%83%9D)
 * [위상 정렬](https://github.com/maetdori/BOJ/tree/main/src/%EC%9C%84%EC%83%81%20%EC%A0%95%EB%A0%AC)
 * [유니온 파인드](https://github.com/maetdori/BOJ/tree/main/src/%EC%9C%A0%EB%8B%88%EC%98%A8%20%ED%8C%8C%EC%9D%B8%EB%93%9C)
 * [이분 탐색](https://github.com/maetdori/BOJ/tree/main/src/%EC%9D%B4%EB%B6%84%20%ED%83%90%EC%83%89)
