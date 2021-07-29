@@ -21,53 +21,60 @@ class Edge implements Comparable<Edge> {
 class Main {
 	static int N;
 	static int M;
-	static List<Edge>[] bus;
-	static final int INF = 100_000_000;
+	static List<Edge>[] edges;
+	static int INF = 100000000;
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st;
-		N = Integer.parseInt(br.readLine()) + 1;
+		N = Integer.parseInt(br.readLine());
 		M = Integer.parseInt(br.readLine());
-		bus = new ArrayList[N];
+		edges = new ArrayList[N+1];
 
-		for(int i=1; i<N; i++) {
-			bus[i] = new ArrayList<>();
-		}
+		for(int i=1; i<N+1; i++) edges[i] = new ArrayList<>();
 
+		StringTokenizer st;
 		for(int i=0; i<M; i++) {
 			st = new StringTokenizer(br.readLine());
 			int from = Integer.parseInt(st.nextToken());
 			int to = Integer.parseInt(st.nextToken());
 			int cost = Integer.parseInt(st.nextToken());
-			bus[from].add(new Edge(to, cost));
+
+			edges[from].add(new Edge(to, cost));
 		}
 
 		st = new StringTokenizer(br.readLine());
 		int start = Integer.parseInt(st.nextToken());
-		int dest = Integer.parseInt(st.nextToken());
+		int end = Integer.parseInt(st.nextToken());
 
-		System.out.println(minimalCost(start,dest));
+		System.out.println(getMinimalCost(start, end));
 	}
 
-	private static int minimalCost(int start, int target) {
+	private static int getMinimalCost(int start, int end) {
 		PriorityQueue<Edge> pq = new PriorityQueue<>();
-		int[] cost = new int[N];
-		Arrays.fill(cost, INF);
-		cost[start] = 0;
-		pq.offer(new Edge(start,0));
+		int[] dist = new int[N+1];
+		Arrays.fill(dist, INF);
+
+		dist[start] = 0;
+		pq.offer(new Edge(start, 0));
 
 		while(!pq.isEmpty()) {
-			Edge cheapest = pq.poll();
-			int cur = cheapest.vertex;
+			Edge cur = pq.poll();
 
-			for(Edge next: bus[cur]) {
-				if(cost[next.vertex] > cost[cur] + next.cost) {
-					cost[next.vertex] = cost[cur] + next.cost;
+			// 1 2 10
+			// 1 2 2
+			// 위와 같이 같은 edge에 다른 가중치가 부과될 수 있는데,
+			// 더 큰 가중치가 앞에 올 경우 시간초과가 발생할 수 있다.
+			// 따라서 다음 한 줄을 삽입하지 않으면 시간초과가 발생
+			if(dist[cur.vertex] < cur.cost) continue;
+
+			for(Edge next: edges[cur.vertex]) {
+				if(dist[next.vertex] > dist[cur.vertex] + next.cost) {
+					dist[next.vertex] = dist[cur.vertex] + next.cost;
 					pq.offer(next);
 				}
 			}
 		}
-		return cost[target];
+
+		return dist[end];
 	}
 }
