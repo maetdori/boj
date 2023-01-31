@@ -1,77 +1,69 @@
+import jdk.internal.util.xml.impl.Input;
+import jdk.nashorn.internal.objects.annotations.Getter;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.nio.charset.StandardCharsets;
 import java.util.*;
 
 public class Main {
-	private static int[][] matrix;
-	private static boolean[][] visited;
 	private static int row;
 	private static int col;
+	private static char[][] matrix;
 
-	private static int[] rMove = {-1, 1, 0, 0};
-	private static int[] cMove = {0, 0, -1, 1};
-
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());
 
-		col = Integer.parseInt(st.nextToken());
 		row = Integer.parseInt(st.nextToken());
+		col = Integer.parseInt(st.nextToken());
 
-		matrix = new int[row][col];
-		visited = new boolean[row][col];
+		matrix = new char[row][col];
 
 		for (int r = 0; r < row; r++) {
-			String[] tmp = br.readLine().split("");
+			String tmp = br.readLine();
 			for (int c = 0; c < col; c++) {
-				matrix[r][c] = Integer.parseInt(tmp[c]);
+				matrix[r][c] = tmp.charAt(c);
 			}
 		}
 
-		System.out.println(tryWithBfs());
 	}
 
-	private static int tryWithBfs() {
-		PriorityQueue<Node> queue = new PriorityQueue<>(Comparator.comparingInt(node -> node.cnt));
-		queue.offer(new Node(0, 0, 0));
+}
 
-		while (!queue.isEmpty()) {
-			Node node = queue.poll();
-			int r = node.row;
-			int c = node.col;
-			int cnt = node.cnt;
+class Square {
+	private Point leftUpper;
+	private Point leftLower;
+	private Point rightLower;
+	private Point rightUpper;
 
-			if (r == row - 1 && c == col - 1) {
-				return cnt;
-			}
+	public Point getLeftUpper() {
+		return this.leftUpper;
+	}
 
-			for (int i = 0; i < 4; i ++) {
-				int nr = r + rMove[i];
-				int nc = c + cMove[i];
+	public Point getLeftLower() {
+		return this.leftLower;
+	}
 
-				if (nr < 0 || nc < 0 || nr >= row || nc >= col) {
-					continue;
-				}
+	public Point getRightLower() {
+		return this.rightLower;
+	}
 
-				if (!visited[nr][nc]) {
-					visited[nr][nc] = true;
-					queue.offer(new Node(nr, nc, matrix[nr][nc] == 0 ? cnt : cnt + 1));
-				}
-			}
-		}
-		return 0;
+	public Point getRightUpper() {
+		return this.rightUpper;
 	}
 }
 
-class Node {
-	int row;
-	int col;
-	int cnt;
+class Point {
+	private int x;
+	private int y;
 
-	Node(int row, int col, int cnt) {
-		this.row = row;
-		this.col = col;
-		this.cnt = cnt;
+	public int getX() {
+		return this.x;
+	}
+
+	public int getY() {
+		return this.y;
 	}
 }
