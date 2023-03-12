@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/1018. 체스판 다시 칠하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1436. 영화감독 숌" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2231. 분해합" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2798. 블랙잭" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/7568. 덩치" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

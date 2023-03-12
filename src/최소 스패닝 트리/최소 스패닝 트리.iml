@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/1197. 최소 스패닝 트리" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/14621. 나만 안되는 연애" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1647. 도시 분할 계획" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1922. 네트워크 연결" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/20010. 악덕 영주 혜유" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2887. 행성 터널" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

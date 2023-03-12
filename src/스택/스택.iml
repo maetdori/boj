@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/10773. 제로" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/10828. 스택" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/17298. 오큰수" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1874. 스택 수열" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/4949. 균형잡힌 세상" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/9012. 괄호" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/9935. 문자열 폭발" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

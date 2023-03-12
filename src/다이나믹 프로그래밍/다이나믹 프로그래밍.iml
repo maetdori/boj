@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/1003. 피보나치 함수" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1005. ACM Craft" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/10844. 쉬운 계단 수" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/10942. 팰린드롬" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/11049. 행렬 곱셈 순서" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/11053. 가장 긴 증가하는 부분 수열" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/11054. 가장 긴 바이토닉 부분 수열" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/11060. 점프 점프" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/11066. 파일 합치기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1149. RGB거리" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/12865. 평범한 배낭" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1463. 1로 만들기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1520. 내리막 길" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1904. 01타일" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1912. 연속합" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1932. 정수 삼각형" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1937. 욕심쟁이 판다" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1949. 우수 마을" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2156. 포도주 시식" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2293. 동전 1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2565. 전깃줄" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2579. 계단 오르기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2629. 양팔저울" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/7579. 앱" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/9184. 신나는 함수 실행" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/9251. LCS" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/9461. 파도반 수열" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
